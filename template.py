@@ -12,6 +12,7 @@ list_of_files = [
     ".github/workflows/.gitkeep",
     "data/.gitkeep",
     "docs/.gitkeep",
+    "custom_model_weights/.gitkeep",
     f"{project_name}/__init__.py",
     f"{project_name}/components/__init__.py",
     f"{project_name}/components/data_ingestion.py",
