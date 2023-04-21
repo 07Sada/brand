@@ -1,4 +1,4 @@
-from BrandRecognition.pipeline.training_pipelines import TrainPipeline 
+from BrandRecognition.pipeline.training_pipeline import TrainPipeline 
 
 obj = TrainPipeline()
 obj.run_pipeline()

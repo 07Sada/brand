@@ -1,7 +1,7 @@
 import os
 from dataclasses import dataclass
 from datetime import datetime
-from signLanguage.constant.training_pipeline import *
+from BrandRecognition.constant.training_pipeline import *
 
 TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y__%I_%M_%S")
 

@@ -5,7 +5,7 @@ from BrandRecognition.components.data_ingestion import DataIngestion
 
 from BrandRecognition.entity.config_entity import (DataIngestionConfig)
 
-from signLanguage.entity.artifact_entity import (DataIngestionArtifact)
+from BrandRecognition.entity.artifact_entity import (DataIngestionArtifact)
 
 class TrainPipeline:
     def __init__(self):
@@ -33,9 +33,9 @@ class TrainPipeline:
         except Exception as e:
             raise BrandException(e, sys)
 
-def run_pipeline(self) -> None:
-        try:
-            data_ingestion_artifact = self.start_data_ingestion()
-            
-        except Exception as e:
-            raise BrandException(e, sys)
+    def run_pipeline(self) -> None:
+            try:
+                data_ingestion_artifact = self.start_data_ingestion()
+
+            except Exception as e:
+                raise BrandException(e, sys)
