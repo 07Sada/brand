@@ -38,7 +38,7 @@ class ModelTrainer:
             os.system(
                 f"cp runs/detect/train/weights/best.pt {self.model_trainer_config.model_trainer_dir}/"
             )
-            os.system("cp yolov8n.pt custom_model_weights/")
+            # os.system("cp yolov8n.pt custom_model_weights/")
             os.makedirs(self.model_trainer_config.model_trainer_dir, exist_ok=True)
             os.system(
                 f"cp runs/detect/train/weights/best.pt {self.model_trainer_config.model_trainer_dir}/"
