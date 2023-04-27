@@ -1,4 +1,4 @@
-import sys
+import sys, os
 from BrandException.configuration.s3_operations import S3Operation
 from BrandException.entity.artifact_entity import (
     ModelPusherArtifacts,
